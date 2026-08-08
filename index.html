@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Window Cleaning in Leatherhead, Ashtead &amp; Bookham | Downland Exterior Cleaning</title>
+<meta name="description" content="Window cleaning from £20 in Leatherhead, Ashtead, Fetcham, Bookham, Dorking and surrounding villages. Frames and sills included, no contract. Text to book.">
+<link rel="canonical" href="https://downlandexteriors.co.uk/">
+<meta property="og:title" content="Downland Exterior Cleaning — window cleaning from £20">
+<meta property="og:description" content="Window cleaning in Leatherhead, Ashtead, Fetcham, Bookham, Dorking and surrounding villages. Frames and sills included. No contract.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta name="theme-color" content="#1E4636">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green:#1E4636;
+    --green-mid:#2F6349;
+    --sage:#7FA890;
+    --cream:#F5F1E6;
+    --cream-2:#EEEBE1;
+    --ink:#22221F;
+    --muted:#5C6B62;
+    --line:rgba(30,70,54,.16);
+    --bar:66px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} *{transition:none!important} }
+
+  body{
+    background:var(--cream);color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+    line-height:1.6;font-size:16px;
+    padding-bottom:calc(var(--bar) + env(safe-area-inset-bottom));
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:0 22px}
+  a{color:inherit}
+  :focus-visible{outline:2px solid var(--sage);outline-offset:3px;border-radius:3px}
+
+  h1,h2,h3{font-family:"Newsreader",Georgia,serif;font-weight:500;line-height:1.15;letter-spacing:-.01em}
+  h2{font-size:clamp(22px,5.2vw,27px);margin-bottom:14px}
+  h3{font-size:17px;margin-bottom:4px}
+  p{margin-bottom:14px}
+  p:last-child{margin-bottom:0}
+
+  /* ---- hero ---- */
+  .hero{background:var(--green);color:var(--cream);padding:26px 0 34px}
+  .brand{display:flex;align-items:center;gap:11px;margin-bottom:30px}
+  .brand svg{width:30px;height:30px;flex:none}
+  .brand .nm{font-family:"Newsreader",Georgia,serif;font-size:20px;letter-spacing:.04em;line-height:1}
+  .brand .sb{font-size:8px;letter-spacing:.24em;text-transform:uppercase;color:rgba(245,241,230,.6);margin-top:4px}
+
+  .hero h1{font-size:clamp(30px,7.6vw,42px);max-width:15ch}
+  .hero .lede{margin-top:14px;font-size:17px;color:rgba(245,241,230,.86);max-width:38ch}
+
+  .pricebox{
+    margin-top:26px;display:flex;align-items:flex-end;gap:26px;flex-wrap:wrap;
+    padding-top:22px;border-top:1px solid rgba(245,241,230,.24);
+  }
+  .pricebox .big{font-family:"Newsreader",Georgia,serif;font-size:54px;line-height:.9}
+  .pricebox .cap{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,241,230,.6);margin-top:8px}
+
+  .btns{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
+  .btn{
+    display:inline-block;padding:14px 22px;border-radius:4px;
+    font-size:15px;font-weight:600;text-decoration:none;letter-spacing:.01em;
+  }
+  .btn-p{background:var(--cream);color:var(--green)}
+  .btn-s{border:1px solid rgba(245,241,230,.45);color:var(--cream)}
+  .btn-w{background:#25D366;color:#0b3d1f}
+
+  /* ---- sections ---- */
+  section{padding:44px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:0}
+
+  .rows{list-style:none}
+  .rows li{
+    display:flex;justify-content:space-between;gap:16px;align-items:baseline;
+    padding:15px 0;border-bottom:1px solid var(--line);
+  }
+  .rows li:last-child{border-bottom:0}
+  .rows .d{font-size:14.5px;color:var(--muted);margin-top:3px}
+  .rows .amt{font-family:"Newsreader",Georgia,serif;font-size:27px;color:var(--green);flex:none}
+
+  .inc{list-style:none;margin-top:4px}
+  .inc li{position:relative;padding-left:24px;margin-bottom:11px;font-size:15.5px}
+  .inc li::before{
+    content:"";position:absolute;left:4px;top:.62em;
+    width:7px;height:7px;border-radius:50%;background:var(--sage);
+  }
+
+  .steps{list-style:none;counter-reset:s}
+  .steps li{
+    counter-increment:s;position:relative;padding-left:42px;margin-bottom:20px;
+  }
+  .steps li::before{
+    content:counter(s);position:absolute;left:0;top:0;
+    width:27px;height:27px;border-radius:50%;
+    background:var(--green);color:var(--cream);
+    font-size:13px;font-weight:600;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .steps p{font-size:15px;color:var(--muted);margin:0}
+
+  .towns{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .towns span{
+    background:var(--cream-2);border:1px solid var(--line);
+    padding:7px 14px;border-radius:3px;font-size:14.5px;color:var(--green);
+  }
+  .aside{margin-top:18px;font-size:14.5px;color:var(--muted)}
+
+  .later{background:var(--cream-2);border:1px solid var(--line);border-radius:5px;padding:20px}
+  .later h2{font-size:19px;margin-bottom:8px}
+  .later p{font-size:15px;color:var(--muted)}
+
+  details{border-bottom:1px solid var(--line);padding:15px 0}
+  details:last-of-type{border-bottom:0}
+  summary{
+    cursor:pointer;font-weight:500;font-size:15.5px;list-style:none;
+    display:flex;justify-content:space-between;gap:14px;align-items:center;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:21px;color:var(--sage);line-height:1;flex:none}
+  details[open] summary::after{content:"–"}
+  details p{margin-top:11px;font-size:15px;color:var(--muted)}
+
+  footer{background:var(--green);color:rgba(245,241,230,.7);padding:30px 0;font-size:13.5px}
+  footer strong{color:var(--cream);font-weight:500}
+
+  /* ---- sticky bar ---- */
+  .bar{
+    position:fixed;left:0;right:0;bottom:0;z-index:20;
+    display:flex;background:var(--green);
+    border-top:1px solid rgba(245,241,230,.2);
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .bar a{
+    flex:1;text-align:center;padding:19px 8px;
+    color:var(--cream);text-decoration:none;font-weight:600;font-size:15px;
+  }
+  .bar a + a{border-left:1px solid rgba(245,241,230,.2)}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect x="2.2" y="2.2" width="35.6" height="35.6" rx="4" stroke="#F5F1E6" stroke-width="2"/>
+        <path d="M20 3v34M3 20h34" stroke="#F5F1E6" stroke-width="2"/>
+        <path d="M4 33.5c4-6 7.5-6.5 11-3 3.6 3.6 6.4-3.5 10.5-5.5 3.2-1.6 7 .5 10.5 4.5" stroke="#7FA890" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <div class="nm">Downland</div>
+        <div class="sb">Exterior Cleaning</div>
+      </div>
+    </div>
+
+    <h1>Window cleaning in Leatherhead and around.</h1>
+    <p class="lede">Frames and sills done as standard, nothing leaning against your house. No contract, stop whenever you like.</p>
+
+    <div class="pricebox">
+      <div>
+        <div class="big">£20</div>
+        <div class="cap">Terrace or semi</div>
+      </div>
+      <div>
+        <div class="big">£28</div>
+        <div class="cap">Large or conservatory</div>
+      </div>
+    </div>
+
+    <div class="btns">
+      <a class="btn btn-p" href="sms:+447727296002?&amp;body=Hi%20Ben%2C%20I%27d%20like%20a%20window%20clean.%20My%20address%20is%3A%20">Text to book</a>
+      <a class="btn btn-w" href="https://wa.me/447727296002?text=Hi%20Ben%2C%20I%27d%20like%20a%20window%20clean.%20My%20address%20is%3A%20">WhatsApp</a>
+      <a class="btn btn-s" href="tel:+447727296002">07727 296002</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="prices">
+    <div class="wrap">
+      <h2>What it costs</h2>
+      <ul class="rows">
+        <li>
+          <div>
+            <h3>Terraced or semi</h3>
+            <div class="d">Every six weeks, outside only</div>
+          </div>
+          <div class="amt">£20</div>
+        </li>
+        <li>
+          <div>
+            <h3>Large house or conservatory</h3>
+            <div class="d">More glass, so it takes longer</div>
+          </div>
+          <div class="amt">£28</div>
+        </li>
+        <li>
+          <div>
+            <h3>Your first clean</h3>
+            <div class="d">One and a half to two times the normal price</div>
+          </div>
+          <div class="amt">from £30</div>
+        </li>
+      </ul>
+      <p class="aside">The first clean costs more because glass that has been left a while takes longer to bring back. I will tell you the exact price before I start, not after.</p>
+    </div>
+  </section>
+
+  <section id="included">
+    <div class="wrap">
+      <h2>What you get</h2>
+      <ul class="inc">
+        <li>Glass, frames and sills, every visit</li>
+        <li>Front and back doors done too</li>
+        <li>Nothing leaning against your house or your flowerbeds</li>
+        <li>A text the night before, every time</li>
+        <li>No need to be home, as long as I can reach the back</li>
+        <li>No contract and no cancellation fee</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>
+          <h3>Text me your address</h3>
+          <p>I will confirm the price for your house before booking anything in.</p>
+        </li>
+        <li>
+          <h3>First clean gets booked</h3>
+          <p>Usually within a week or two, depending on where you are on the round.</p>
+        </li>
+        <li>
+          <h3>I text the night before</h3>
+          <p>So you can unlock the side gate. You do not need to be in.</p>
+        </li>
+        <li>
+          <h3>Back every six weeks</h3>
+          <p>Same day, same rhythm, same person. Pay after each clean by card or bank transfer.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="areas">
+    <div class="wrap">
+      <h2>Where I cover</h2>
+      <div class="towns">
+        <span>Leatherhead</span><span>Ashtead</span><span>Fetcham</span>
+        <span>Bookham</span><span>Dorking</span>
+      </div>
+      <p class="aside">Plus the surrounding villages: Effingham, East Horsley, Box Hill, West Humble, Westcott, Brockham, North and South Holmwood, and Coldharbour. If you are nearby and not on the list, still worth asking. I am adding streets all the time and it is usually a yes if there are a few houses close together.</p>
+    </div>
+  </section>
+
+  <section id="later">
+    <div class="wrap">
+      <div class="later">
+        <h2>Homes and shops</h2>
+        <p>As well as houses, I clean shopfronts and business premises, weekly or fortnightly. Gutter clearing, fascias and soffits, and conservatory roofs are being added too. Mention what you need when you text and I will sort it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+
+      <details>
+        <summary>Do I need to be home?</summary>
+        <p>No. As long as I can get to the back of the house, you do not need to be in. I text the night before so you can leave the side gate unlocked.</p>
+      </details>
+
+      <details>
+        <summary>Why does the first clean cost more?</summary>
+        <p>Glass that has not been cleaned for a while takes a lot longer to bring back than glass on a six week rhythm. The first clean is one and a half to two times the normal price, and I will tell you exactly what it is before I start.</p>
+      </details>
+
+      <details>
+        <summary>Am I tied into anything?</summary>
+        <p>No contract, no minimum, no cancellation fee. Tell me to stop and I stop.</p>
+      </details>
+
+      <details>
+        <summary>What if it rains?</summary>
+        <p>I still clean. Rain is clean water and it does not undo the job. If the weather is bad enough to be unsafe I will move you to the next day and text you.</p>
+      </details>
+
+      <details>
+        <summary>What if you cannot get round the back?</summary>
+        <p>I will clean the front, charge you less for that visit, and catch the back next time.</p>
+      </details>
+
+      <details>
+        <summary>How do I pay?</summary>
+        <p>Card or bank transfer after each clean. Details come with your confirmation text.</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Downland Exterior Cleaning</strong><br>
+    Window cleaning in Leatherhead, Ashtead, Fetcham, Bookham, Dorking and surrounding villages.</p>
+    <p>07727 296002 &middot; info@downlandexteriors.co.uk</p>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Contact">
+  <a href="sms:+447727296002?&amp;body=Hi%20Ben%2C%20I%27d%20like%20a%20window%20clean.%20My%20address%20is%3A%20">Text</a>
+  <a href="https://wa.me/447727296002?text=Hi%20Ben%2C%20I%27d%20like%20a%20window%20clean.%20My%20address%20is%3A%20">WhatsApp</a>
+  <a href="tel:+447727296002">Call</a>
+</nav>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "@id":"https://downlandexteriors.co.uk/#business",
+  "name":"Downland Exterior Cleaning",
+  "description":"Residential window cleaning in Leatherhead, Ashtead, Fetcham, Bookham, Dorking and surrounding villages. Frames and sills included, no ladders, no contract.",
+  "url":"https://downlandexteriors.co.uk/",
+  "telephone":"+447727296002",
+  "email":"info@downlandexteriors.co.uk",
+  "priceRange":"££",
+  "currenciesAccepted":"GBP",
+  "paymentAccepted":"Card, Bank transfer",
+  "areaServed":[
+    {"@type":"City","name":"Leatherhead"},
+    {"@type":"City","name":"Ashtead"},
+    {"@type":"City","name":"Fetcham"},
+    {"@type":"City","name":"Great Bookham"},
+    {"@type":"City","name":"Effingham"},
+    {"@type":"City","name":"Dorking"}
+  ],
+  "address":{"@type":"PostalAddress","addressRegion":"Surrey","addressCountry":"GB"},
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"Window cleaning",
+    "itemListElement":[
+      {"@type":"Offer","name":"Window cleaning, terraced or semi-detached","price":"20","priceCurrency":"GBP"},
+      {"@type":"Offer","name":"Window cleaning, large house or conservatory","price":"28","priceCurrency":"GBP"}
+    ]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"Do I need to be home?","acceptedAnswer":{"@type":"Answer","text":"No. As long as I can get to the back of the house you do not need to be in. I text the night before so you can leave the side gate unlocked."}},
+    {"@type":"Question","name":"Why does the first clean cost more?","acceptedAnswer":{"@type":"Answer","text":"Glass that has not been cleaned for a while takes longer to bring back than glass on a six week rhythm. The first clean is one and a half to two times the normal price, confirmed before any work starts."}},
+    {"@type":"Question","name":"Am I tied into a contract?","acceptedAnswer":{"@type":"Answer","text":"No contract, no minimum and no cancellation fee."}},
+    {"@type":"Question","name":"What happens if it rains?","acceptedAnswer":{"@type":"Answer","text":"Cleaning still goes ahead. Rain is clean water and does not undo the job. If conditions are unsafe the visit moves to the next day."}},
+    {"@type":"Question","name":"What if you cannot get round the back?","acceptedAnswer":{"@type":"Answer","text":"The front is cleaned, the price for that visit is reduced, and the back is done next time."}},
+    {"@type":"Question","name":"How do I pay?","acceptedAnswer":{"@type":"Answer","text":"Card or bank transfer after each clean. Details are sent with the booking confirmation."}}
+  ]
+}
+</script>
+
+</body>
+</html>
